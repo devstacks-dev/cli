@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-exports.say = function() {
-    console.log('Hi there!');
-};
+
+const [, , ...args] = process.argv
+
+console.log(`DevStacks Args: ${args}`);
