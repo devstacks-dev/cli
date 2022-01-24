@@ -1,14 +1,14 @@
 {
-  "name": "@devstacks-se/cli",
-  "version": "0.0.2",
-  "description": "DevStacks CLI",
+  "name": "@devstacks.dev/cli",
+  "version": "0.0.3",
+  "description": "DevStacks Command Line Tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/devstacks-se/cli.git"
+    "url": "git+https://github.com/devstacks-se/cli.git"
   },
   "author": "DevStacks Software Engineering",
   "license": "ISC",
@@ -16,7 +16,5 @@
     "url": "https://github.com/devstacks-se/cli/issues"
   },
   "homepage": "https://github.com/devstacks-se/cli#readme",
-  "bin": {
-    "devstacks": "./index.js"
-  }
+  "bin": { "devstacks": "./index.js" }
 }
