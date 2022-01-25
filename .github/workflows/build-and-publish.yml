@@ -6,16 +6,16 @@ jobs:
   Build-And-Publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: Checking out repository code
         uses: actions/checkout@v2
-      - name: Setup Node.js
+      - name: Setting up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '17.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies
+      - name: Installing dependencies
         run: npm i
-      - name: Publish to npmjs
+      - name: Publishing to npmjs
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
