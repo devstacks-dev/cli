@@ -2,4 +2,4 @@
 
 const [, , ...args] = process.argv
 
-console.log(`DevStacks entered Args: ${args}`);
+console.log(`DevStacks entered args: ${args}`);

@@ -1,6 +1,6 @@
 {
   "name": "@devstacks.dev/cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "DevStacks Command Line Tool",
   "main": "index.js",
   "scripts": {
